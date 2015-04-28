@@ -40,6 +40,12 @@ class ViewController: UIViewController {
         label1.textColor = UIColor.blueColor()
         enterMessageHere.text = ""
         enterMessageHere.resignFirstResponder()
+        label2.hidden = false
+        label2.text = enterNameHere.text
+        label2.textColor = UIColor.blueColor()
+        enterNameHere.text = ""
+        enterNameHere.resignFirstResponder()
+        
         
         
     }
